@@ -3,29 +3,328 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Sandra Błaszkowska" />
-    <meta name="description" content="Opis strony." />
-    <meta name="keywords" content="Sandra Błaszkowska" />
-    <title>
-        Sandra Błaszkowska
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <table width=95% border="1" align="center" height=600>
-        <tr>
-            <td width=18% align=center>
-                <iframe src="./iframe/links.html" width="100%" height="100%"></iframe>
-            </td>
-            <td align=center height=100%>
-                <iframe src="./iframe/perz_z24.html" width="100%" height="100%"></iframe>
-            </td>
-            <td width=18% align=center>
-                <iframe src="./iframe/right_links.html" width="100%" height="100%"></iframe>
-            </td>
-        </tr>
-    </table>
+    <ol>
+        <li>
+            Jakie standardowo dostępne są czcionki w systemie Windows?<br />
+            <ul type="square">
+                <li>
+                    Times New Roman,
+                </li>
+                <li>
+                    Arial
+                </li>
+                <li>
+                    Courier New
+                </li>
+            </ul>
+        </li>
+        <li>
+            Jakich czcionek dodatkowo dostarcza Internet Explorerem?<br />
+            <ul>
+                <li>
+                    Verdana
+                </li>
+                <li>
+                    Tahoma
+                </li>
+                <li>
+                    Trebuchet MS
+                </li>
+                <li>
+                    Georgia
+                </li>
+            </ul>
+        </li>
+        <li>
+            Wymień rodziny ogólne<br />
+            <ul style="list-style: inside;">
+                <li>
+                    serif - <u>czcionka szeryfowa</u> (końcówki znaków posiadają "ozdobniki")<br />
+                    <ul>
+                        <li>
+                            Times New Roman
+                        </li>
+                        <li>
+                            Georgia
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    sans-serif - <u>czcionka bezszeryfowa</u> (końcówki znaków są proste)<br />
+                    <ul>
+                        <li>
+                            Arial
+                        </li>
+                        <li>
+                            Verdana
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    monospace - <u>czcionka o stałej szerokości znaków</u> - monotypiczna (wygląda, jak
+                    pisana na maszynie<br />
+                    <ul>
+                        <li>
+                            Courier
+                        </li>
+                        <li>
+                            Courier New
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    cursive - <u>czcionka mająca pewne cechy pochyłej</u> (wygląda, jak pisana ręcznie)<br />
+                </li>
+                <li>
+                    fantasy - <u>czcionka fantazyjna</u> (dekoracyjna)<br />
+                </li>
+            </ul>
+        </li>
+        <li>
+            Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy<br /><br />
+            Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie <br />
+            będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost. Dlatego zwykle rodzinę <br />
+            ogólną podaje się na samym końcu listy nazw czcionek, np.:<br />
+            <br />
+            <b>Przykład:</b><br />
+            body { font-family: Arial, Helvetica, Verdana, sans-serif }
+        </li>
+        <li>
+            Rodzaje wyrównanie tekstu
+            <ol>
+                <li>
+                    Do prawej
+                </li>
+                <li>
+                    Do lewej
+                </li>
+                <li>
+                    Wyśrodkowane
+                </li>
+                <li>
+                    Wyjustowane
+                </li>
+            </ol>
+        </li>
+        <li>
+            Kolor tekstu (składnia opis)<br />
+            Składnia reguły: <br />
+            selektor {color: kolor;} <br />
+            Wyraz selektor ma zastosowanie do wszystkich elementów. Natomiast jako kolor należy podać definicję koloru.
+            <br />
+            Dzięki temu poleceniu można ustalić dowolny kolor tekstu. <br />
+        </li>
+        <li>
+            dekoracja tekstu (składnia, opis, odpowiednie wcięcia, podkreślenia numerowania <br /><br />
+            Tekst można <b> „udekorować”</b> w sposób następujący:
+            <ol type="a">
+                <li>
+                    <span style="text-decoration: underline;">Podkreślić</span> - (underline)
+                </li>
+                <li>
+                    <span style="text-decoration: line-through;">Przekreślić</span> - (line-through)
+                </li>
+                <li>
+                    <span style="text-decoration: overline;">Nadkreślić</span> - (overline)
+                </li>
+                <li>
+                    Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)
+                </li>
+            </ol>
+            <br />
+            <b>Składnia reguły:</b> <br />
+            selektor {text-decoration: dekoracja;}
+        </li>
+        <li>
+            Warianty czcionek<br />
+            <ul>
+                <li>
+                    normal - czcionka normalna (podstawowa)
+                </li>
+                <li>
+                    small-caps - kapitaliki
+                </li>
+            </ul>
+            "kapitaliki", czyli tekst napisany wielkimi literami, lecz czcionką o wielkości małych liter.
+        </li>
+        <li>
+            Pogrubienie czcionek (wyliczenia)<br />
+            <ul>
+                <li>
+                    normal - czcionka normalna (podstawowa)
+                </li>
+                <li>
+                    bold - czcionka pogrubiona
+                </li>
+                <li>
+                    100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800,<br />
+                    900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo<br />
+                    wytłuszczonej jak dla poprzedniej wartości w sekwencji
+                </li>
+            </ul>
+        </li>
+        <li>
+            Rozmiar czcionek (wyliczenia, ............)<br />
+            <ul>
+                <li>
+                    xx-small - najmniejsza
+                </li>
+                <li>
+                    x-small - mniejsza
+                </li>
+                <li>
+                    small - mała
+                </li>
+                <li>
+                    medium - średnia
+                </li>
+                <li>
+                    large - duża
+                </li>
+                <li>
+                    x-large - większa
+                </li>
+                <li>
+                    xx-large - największa
+                </li>
+            </ul>
+
+            Z użyciem różnych jednostek
+            <ul>
+                <li>
+                    rozmiar 0.5cm
+                </li>
+                <li>
+                    rozmiar 4mm
+                </li>
+                <li>
+                    rozmiar 0.25in
+                </li>
+                <li>
+                    rozmiar 10pt
+                </li>
+                <li>
+                    rozmiar 1pc
+                </li>
+                <li>
+                    rozmiar 15px
+                </li>
+                <li>
+                    rozmiar 1em
+                </li>
+                <li>
+                    rozmiar 2ex
+                </li>
+            </ul>
+        </li>
+        <li>
+            Transformacja tekstu (składnia, opis, podkreślenia)<br />
+            Składnia reguły: <br />
+            selektor {text-transform: transformacja;} <br />
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <u>transformacja:</u>
+
+
+            <ul>
+                <li>
+                    "none" - bez zmian
+                </li>
+                <li>
+                    "capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie
+                </li>
+                <li>
+                    "uppercase" - zamiana wszystkich liter na wielkie
+                </li>
+                <li>
+                    "lowercase" - zamiana wszystkich liter na małe
+                </li>
+            </ul>
+        </li>
+        <li>
+            Wcięcia tekstu(składnia, jednostki miar)<br />
+            Składnia reguły:
+            selektor {text-indent: wcięcie;} <br />
+            Wyraz selektor ma zastosowanie do elementów blokowych. <br />
+            wcięcie: należy podać konkretną wielkość, używając
+            jednostek miary:
+            <ul>
+                <li>
+                    piksele - px
+                </li>
+                <li>
+                    punkty edytorskie - pt
+                </li>
+                <li>
+                    wysokość litery "x" - ex
+                </li>
+                <li>
+                    wysokość aktualnej czcionki - em
+                </li>
+                <li>
+                    centymetry lub milimetry - cm, mm
+                </li>
+                <li>
+                    części dziesiętne centymetra pisane z kropką np.: 0.5cm cale - in
+                </li>
+                <li>
+                    procent wielkości nadrzędnej - %
+                </li>
+            </ul>
+        </li>
+        <li>
+            Odstęp miedzy wierszami<br />
+            Składnia reguły: <br />
+            selektor {line-height: odstęp;} <br />
+            Wyraz selektor ma zastosowanie do wszystkich elementów.<br />
+        </li>
+        <li>
+            Odstęp między wyrazami<br />
+            Składnia reguły: <br />
+            selektor {word-spacing: odstęp;} <br />
+            Wyraz selektor ma zastosowanie do wszystkich elementów.<br />
+        </li>
+        <li>
+            Odstęp między literami <br />
+            Składnia reguły: <br />
+            selektor {letter-spacing: odstęp;} <br />
+            Wyraz selektor ma zastosowanie do wszystkich elementów.<br />
+        </li>
+        <li>
+            <ol>
+                <li>
+                    font-style
+                </li>
+                <li>
+                    font-variant
+                </li>
+                <li>
+                    font-weight
+                </li>
+                <li>
+                    font-size
+                </li>
+                <li>
+                    line-height
+                </li>
+                <li>
+                    font-family
+                </li>
+            </ol>
+
+            Składnia reguły: <br />
+            selektor {font: wartości atrybutów;} <br />
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <br />
+            Jako wartości atrybutów wpisać należy zgodnie z podaną poniżej kolejnością, oddzielając <br />
+            spacjami, konkretne wartości, które opisują poszczególne atrybuty czcionek i tekstu. <br />
+            Można niektóre pominąć. wartości atrybutów: font-style font-variant font-weight font-size line-height <br />
+            font-family <br />
+            Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące czcionek i <br />
+            tekstu. Pomiędzy font-size, a line-height należy wstawić ukośnik (bezpośrednio przed <br />
+            line-height).
+        </li>
+    </ol>
 </body>
 
 </html>
