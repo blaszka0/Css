@@ -3,29 +3,98 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Sandra Błaszkowska" />
-    <meta name="description" content="Opis strony." />
-    <meta name="keywords" content="Sandra Błaszkowska" />
-    <title>
-        Właściwości czcionek-Błaszkowska
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <table width=95% border="1" align="center" height=600>
-        <tr>
-            <td width=18% align=center>
-                <iframe src="./iframe/links.html" width="100%" height="100%"></iframe>
-            </td>
-            <td align=center height=100%>
-                <iframe src="./iframe/blas_z32.html" width="100%" height="100%"></iframe>
-            </td>
-            <td width=18% align=center>
-                <iframe src="./iframe/right_links.html" width="100%" height="100%"></iframe>
-            </td>
-        </tr>
-    </table>
+    <ol start="5">
+        <li>
+            <h1>Model Box</h1>
+            <p>
+                Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem
+                (ang. Box model).
+            </p>
+        </li>
+        <li>
+            <h1>Warstwy modelu:</h1>
+            <table border="1">
+                <tr>
+                    <td>
+                        <b>
+                            zawartość
+                        </b>
+                    </td>
+                    <td>
+                        <b>
+                            Opis
+                        </b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        content
+                    </td>
+                    <td>
+                        zawartość elementu (np.: tekst, obrazek)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        padding
+                    </td>
+                    <td>
+                        otaczające marginesy wewnętrzne, odstęp między obramowaniem i
+                        zawartością elementu
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        border
+                    </td>
+                    <td>
+                        obramowania wokół zawartości elementu, ma styl i kolor.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        margin
+                    </td>
+                    <td>
+                        marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół
+                        ramki, który nie ma koloru tła i jest przeźroczysty.
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h1>Uwaga 1</h1>
+            <p>
+                Padding, border i margin mogą mieć zerową wartość.
+            </p>
+            <h1>
+                Uwaga 2
+            </h1>
+            <p>
+                Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem
+                marginesów zewnętrznych, które zawsze są przezroczyste (transparent).
+            </p>
+        </li>
+        <li>
+            <img src="../assets/img/Model.png" />
+        </li>
+        <li>
+            <p>
+                Padding określa przestrzeń wokół danego elementu, np:
+                p lub div, natomiast margines
+                przestrzeń pomiędzy elementami.
+            </p>
+            <img src="../assets/img/DifferencePaddingMargin.png" />
+            <p>
+                Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość
+                przestrzeni wokół elementu p. Element ten posiada również margines zaznaczony kolorem
+                pomarańczowym. Jest to odległość od brzegu elementu body
+            </p>
+        </li>
+    </ol>
 </body>
 
 </html>
