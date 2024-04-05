@@ -3,16 +3,16 @@ body {
 }
 
 p:not(:first-child) {
-    font-size: 10pt;
+    font-size: 11pt;
 }
 
 p:first-child {
-    font-size: 9mm;
+    font-size: 7mm;
     font-style: italic;
 }
 
 div#pierwszy_blaszkowska {
-    width: 772pt;
+    width: 712pt;
     margin-left: auto;
     margin-right: auto;
     background-color: #8888FF;
@@ -21,14 +21,14 @@ div#pierwszy_blaszkowska {
 }
 
 div#drugi_blaszkowska {
-    width: 972pt;
+    width: 912pt;
     background-color: pink;
     border-radius: 15mm;
     border: 3px solid #000000;
 }
 
 div#trzeci_blaszkowska {
-    width: 1172pt;
+    width: 1112pt;
     background-color: #44FF44;
     border-radius: 13mm;
     border: 7px solid violet;
