@@ -1,31 +1,119 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Sandra Błaszkowska" />
-    <meta name="description" content="Opis strony." />
-    <meta name="keywords" content="Sandra Błaszkowska" />
-    <title>
-        Właściwości czcionek-Błaszkowska
-    </title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-<table width=95% border="1" align="center" height=600>
-    <tr>
-        <td width=18% align=center>
-            <iframe src="./iframe/links.html" width="100%" height="100%"></iframe>
-        </td>
-        <td align=center height=100%>
-            <iframe src="./iframe/blas_z65_kod.html" width="100%" height="100%"></iframe>
-        </td>
-        <td width=18% align=center>
-            <iframe src="./iframe/right_links.html" width="100%" height="100%"></iframe>
-        </td>
-    </tr>
-</table>
-</body>
-
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>
+            HTML
+        </h1>
+        <textarea rows="66" cols="400">
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="UTF-8" />
+            
+                    <link rel="stylesheet" href="../css/zadanie65_blas.css" />
+                </head>
+                <body>
+                    <div id="pierwszy_blaszkowska">
+                        <p>
+                            pierwszy akapit / pierwszy div -> Blaszkowska #pierwszy_blaszkowska
+                        </p>
+                        <p>
+                            drugi akapit / pierwszy div <br />
+                            pierwszy akapit -> {font-size:7mm;font-styl:italic;} dla numerów nieparzystych w dzienniku <br />
+                            pozostałe akapity ->     font-size: 11pt; bo number nieparzysty <br />
+                            szerokosc bloku -> 700 + 3 * 4 = 712 [pt] <br />
+                            pierwszy div -> granatowy
+                        </p>
+                        <p>
+                            trzeci akapit / pierwszy div <br />
+                            pierwszy div -> border granatowy  <br />
+                            pierwszy div -> obramowanie grubosc 5px, ciagly (solid) <br />
+                            pierwszy div -> r1 = 7 + 6 (Sandra) = 13 <br />
+                        </p>
+                    </div>
+            
+                    <div id="drugi_blaszkowska">
+                        <p>
+                            pierwszy akapit / drugi div -> Sandra #drugi_blaszkowska
+                        </p>
+                        <p>
+                            drugi akapit / drugi div <br />
+                            pierwszy akapit -> {font-size:7mm;font-styl:italic;} dla numerów nieparzystych w dzienniku <br />
+                            pozostałe akapity ->     font-size: 11pt; bo number nieparzysty <br />
+                            szerokosc bloku -> 900 + 3 * 4 = 912 [pt] <br />
+                            pierwszy div -> rozowy
+                        </p>
+                        <p>
+                            trzeci akapit / drugi  div <br />
+                            drugi  div -> border black  <br />
+                            drugi  div -> obramowanie grubosc 3px, ciagly (solid) <br />
+                            drugi  div -> r1 = 7 + 11 (Blaszkowska) = 18 <br />
+                        </p>
+                    </div>
+            
+                    <div id="trzeci_blaszkowska">
+                        <p>
+                            pierwszy akapit / trzeci div -> 1P #trzeci_blaszkowska
+                        </p>
+                        <p>
+                            drugi akapit / trzeci div <br />
+                            pierwszy akapit -> {font-size:7mm;font-styl:italic;} dla numerów nieparzystych w dzienniku <br />
+                            pozostałe akapity ->     font-size: 11pt; bo number nieparzysty <br />
+                            szerokosc bloku -> 1100 + 3 * 4 = 1112 [pt] <br />
+                            trzeci div -> jasna zielen
+                        </p>
+                        <p>
+                            trzeci akapit / trzeci  div <br />
+                            trzeci  div -> border fioletowy <br />
+                            trzeci  div -> obramowanie grubosc 7px, ciagly (solid) <br />
+                            trzeci  div -> r1 = 7 + 6 = 13 <br />
+                        </p>
+                    </div>
+                </body>
+            </html>
+        </textarea>
+        <h1>
+            CSS
+        </h1>
+        <textarea cols="40" rows="100">
+            body {
+                background-color: silver;
+            }
+            
+            p:not(:first-child) {
+                font-size: 10pt;
+            }
+            
+            p:first-child {
+                font-size: 9mm;
+                font-style: italic;
+            }
+            
+            div#pierwszy_blaszkowska {
+                width: 772pt;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #8888FF;
+                border-radius: 14mm;
+                border: 5px solid #000088;
+            }
+            
+            div#drugi_blaszkowska {
+                width: 972pt;
+                background-color: pink;
+                border-radius: 15mm;
+                border: 3px solid #000000;
+            }
+            
+            div#trzeci_blaszkowska {
+                width: 1172pt;
+                background-color: #44FF44;
+                border-radius: 13mm;
+                border: 7px solid violet;
+            }
+        </textarea>
+    </body>
 </html>
