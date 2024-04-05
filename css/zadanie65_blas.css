@@ -16,20 +16,20 @@ div#pierwszy_blaszkowska {
     margin-left: auto;
     margin-right: auto;
     background-color: #8888FF;
-    border-radius: 14mm;
+    border-radius: 13mm;
     border: 5px solid #000088;
 }
 
 div#drugi_blaszkowska {
     width: 912pt;
     background-color: pink;
-    border-radius: 15mm;
+    border-radius: 18mm;
     border: 3px solid #000000;
 }
 
 div#trzeci_blaszkowska {
     width: 1112pt;
     background-color: #44FF44;
-    border-radius: 13mm;
+    border-radius: 14mm;
     border: 7px solid violet;
 }
