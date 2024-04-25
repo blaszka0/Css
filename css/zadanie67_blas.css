@@ -1,0 +1,44 @@
+.firstParagraph::first-letter {
+    font-size: 116pt;
+    color: silver;
+}
+
+.firstParagraph {
+    color: #44FF44;
+    font-size: 22pt;
+}
+
+.secondParagraph::first-letter {
+    font-size: 116pt;
+    color: #FF7800;
+}
+
+.secondParagraph {
+    color: #44FF44;
+    font-size: 22pt;
+}
+
+h1 {
+    color: #0000FF;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1::first-letter {
+    color: silver;
+    font-size: 96px;
+}
+
+.thirdParagraph {
+    font-size: 32px;
+    color: blue;
+}
+
+.thirdParagraph::first-line {
+    font-size: 24px;
+    color: red;
+}
+
+.thirdParagraph::first-letter {
+    font-size: 72px;
+}

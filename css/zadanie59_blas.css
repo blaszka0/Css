@@ -1,0 +1,32 @@
+a {
+    font-size: 18pt;
+    /*
+        usuwa dekoracje tekstu z linku (linię poniżej)
+    */
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    /*
+        ustawia dekoracje tekstu na underline (dodaje podkreślenie)
+    */
+    text-decoration: underline;
+}
+
+div {
+    font-size: 2cm;
+    color: red;
+}
+
+/*
+    Sandra Błaszkowska
+*/

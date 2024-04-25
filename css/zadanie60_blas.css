@@ -1,0 +1,20 @@
+div {
+    width: 603px;
+    background-color: green;
+}
+
+div:hover {
+    font-size: 19mm;
+}
+
+#blok_blaszkowska_1:hover {
+    background-color: yellow;
+}
+
+#blok_blaszkowska_2:hover {
+    background-color: red;
+}
+
+#blok_blaszkowska_3:hover {
+    background-color: blue;
+}

@@ -1,0 +1,14 @@
+p {
+    font-size: 6mm;
+    color: silver;
+}
+
+p:lang(pl) {
+    font-size: 7mm;
+    color: orange;
+}
+
+p:lang(en) {
+    font-size: 11mm;
+    color: blue;
+}

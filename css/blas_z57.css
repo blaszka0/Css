@@ -1,0 +1,15 @@
+* {
+    font-size: 36pt; /* 30 + 6 (Sandra) = 36 */
+    background-color: yellow;
+    color: blue;
+}
+
+.klasa_nieuniwersalna_blaszkowska {
+    font-size: 36pt; /* 25 + 11 (Błaszkowska) = 36 */
+    color: purple;
+}
+
+.klasa_uniwersalna_blaszkowska {
+    font-size: 26pt; /* 20 + 7 (lipiec jest 7 miesiącem) = 26 */
+    color: black; 
+}

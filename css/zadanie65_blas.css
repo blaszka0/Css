@@ -3,33 +3,33 @@ body {
 }
 
 p:not(:first-child) {
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 p:first-child {
-    font-size: 7mm;
+    font-size: 9mm;
     font-style: italic;
 }
 
 div#pierwszy_blaszkowska {
-    width: 712pt;
+    width: 772pt;
     margin-left: auto;
     margin-right: auto;
     background-color: #8888FF;
-    border-radius: 13mm;
+    border-radius: 14mm;
     border: 5px solid #000088;
 }
 
 div#drugi_blaszkowska {
-    width: 912pt;
+    width: 972pt;
     background-color: pink;
-    border-radius: 18mm;
+    border-radius: 15mm;
     border: 3px solid #000000;
 }
 
 div#trzeci_blaszkowska {
-    width: 1112pt;
+    width: 1172pt;
     background-color: #44FF44;
-    border-radius: 14mm;
+    border-radius: 13mm;
     border: 7px solid violet;
 }
