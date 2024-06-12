@@ -1,0 +1,15 @@
+.left {
+    background-color: green;
+    border: 2px outset yellow;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.right {
+    background-color: red;
+    border: 5px solid orange;
+}
+
+table {
+    border: 2px dotted black;
+}
